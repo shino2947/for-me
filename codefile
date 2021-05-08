@@ -1,0 +1,44 @@
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ ls -la
+total 5
+drwxr-xr-x 1 Dell Latitude E5450 197121   0 May  8 12:26 ./
+drwxr-xr-x 1 Dell Latitude E5450 197121   0 May  8 12:19 ../
+drwxr-xr-x 1 Dell Latitude E5450 197121   0 May  8 12:35 .git/
+drwxr-xr-x 1 Dell Latitude E5450 197121   0 May  8 12:21 css/
+-rw-r--r-- 1 Dell Latitude E5450 197121 381 May  8 12:24 index.html
+drwxr-xr-x 1 Dell Latitude E5450 197121   0 May  8 12:21 js/
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ code .
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Dell Latitude E5450/Desktop/swd/git-test/.git/
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ git add .
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ git commit -m "first"
+On branch main
+nothing to commit, working tree clean
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ git branch -M main
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ remote add origin https://github.com/shino2947/for-me.git
+bash: remote: command not found
+
+Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 668 bytes | 41.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shino2947/for-me.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
