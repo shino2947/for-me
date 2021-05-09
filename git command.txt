@@ -13,7 +13,7 @@ Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
 $ code .
 
 Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
-$ git init
+$ git init 
 Reinitialized existing Git repository in C:/Users/Dell Latitude E5450/Desktop/swd/git-test/.git/
 
 Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
