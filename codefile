@@ -33,6 +33,13 @@ bash: remote: command not found
 
 Dell Latitude E5450@DESKTOP-9EBRF4Q MINGW64 ~/Desktop/swd/git-test (main)
 $ git push -u origin main
+
+
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 4 threads
